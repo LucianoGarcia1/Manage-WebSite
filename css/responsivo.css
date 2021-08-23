@@ -1,0 +1,124 @@
+@media screen and (max-width:1216px){
+    .card-vitrine{
+        margin-bottom:100px;
+    }
+}
+
+@media screen and (max-width:1025px){
+    .footer-btn{
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 120px;
+    }
+
+    .form-togle form{
+        justify-content: center;
+        display: flex;
+        gap: 1em;
+    }
+
+    form input{
+        min-width: 80%;
+    }
+
+    .form-togle p{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .form-togle{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1024px){
+
+    /*seçao header botton*/
+
+    .header-botton{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .img-intro img{
+        max-width: 80%;
+    }
+
+    /*header responsivo*/
+
+    nav #btn-mobile{
+        display: block;
+        background-color: transparent;
+        border: none;
+    }
+
+    nav #menu{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        background-color: hsl(228, 39%, 23%);
+        top: 160px;
+        right: 0;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+        transition: .6s;
+        text-align: center;
+    }
+
+    #nav.active #menu{
+        visibility: visible;
+        height: 265px;
+        text-align: center;
+    }
+
+    nav #menu a{
+        border-bottom: 2px solid rgba(0, 0, 0, .04);
+        padding: 15px;
+        color: white;
+    }
+
+    nav #menu a:hover{
+        background-color: white;
+    }
+
+    /*serviços*/
+
+    .info{
+        
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        text-align: center;
+    }
+
+    /*vitrine*/
+    .card-vitrine{
+        margin-bottom: 100px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .header-top{
+        gap: 2.7em;
+    }
+}
+
+@media screen and (max-width:540px){
+    .card-vitrine{
+        max-width: 100%;
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:604px){
+    .vitrine{
+        padding-bottom: 100px;
+    }
+}
